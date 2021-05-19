@@ -7,6 +7,7 @@
 * **Description**
     * This application has been provisioned with JUnit tests and boilerplate classes, and method stubs.
     * Complete the method-stub implementation to achieve 100% test-pass rate.
+    * Click [here to view the javadocs](https://zipcoder.github.io/maven.controlschecker/docs/index.html)
 
 
 
