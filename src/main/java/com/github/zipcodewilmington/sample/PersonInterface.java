@@ -1,4 +1,4 @@
-package com.github.zipcodewilmington;
+package com.github.zipcodewilmington.sample;
 
 public interface PersonInterface {
     String getFirstName();
