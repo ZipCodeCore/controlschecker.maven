@@ -1,4 +1,4 @@
-# Project Title
+# Control Checker
 
 * **Objective**
     * To create a product which simulates a control sensor for thermostats, fireplaces, and rocket engines. 
