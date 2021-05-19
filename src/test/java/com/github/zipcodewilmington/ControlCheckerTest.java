@@ -80,14 +80,14 @@ public class ControlCheckerTest {
 
     @ParameterizedTest
     @ValueSource(doubles = {0.79, 0.5, 0.1, Double.MAX_VALUE})
-    public void testFuelControlsBurnFuel() {
-        testFuelControls(0.079, "refuel");
+    public void testFuelControlsBurnFuel(Double fuelLevel) {
+        testFuelControls(fuelLevel, "refuel");
     }
 
     @ParameterizedTest
     @ValueSource(doubles = {0.079, 0.05, 0.001, Double.MIN_VALUE})
-    public void testFuelControlsRefuel() {
-        testFuelControls(0.079, "refuel");
+    public void testFuelControlsRefuel(Double fuelLevel) {
+        testFuelControls(fuelLevel, "refuel");
     }
 
     @ParameterizedTest
